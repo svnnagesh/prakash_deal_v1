@@ -1,0 +1,228 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Candidate</label>
+          <select class="form-control">
+            <option *ngFor="let cand of candidate" value="{{cand}}">{{cand}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Target</label>
+          <select class="form-control">
+            <option *ngFor="let tar of target" value="{{tar}}">{{tar}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Start Date</label>
+          <select class="form-control">
+            <option *ngFor="let date of startDate" value="{{date}}">{{date}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Bill Rate</label>
+          <select class="form-control">
+            <option *ngFor="let rate of billRate" value="{{rate}}">{{rate}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Discount</label>
+          <select class="form-control">
+            <option *ngFor="let disc of discount" value="{{disc}}">{{disc}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Vacation</label>
+          <select class="form-control">
+            <option *ngFor="let vac of vacation" value="{{vac}}">{{vac}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Self Health</label>
+          <select class="form-control">
+            <option *ngFor="let self of selfHealth" value="{{self}}">{{self}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Family Health</label>
+          <select class="form-control">
+            <option *ngFor="let fam of familyHealth" value="{{fam}}">{{fam}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>H1B</label>
+          <select class="form-control">
+            <option *ngFor="let h of h1b" value="{{h}}">{{h}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>GC</label>
+          <select class="form-control">
+            <option *ngFor="let g of gc" value="{{g}}">{{g}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>C2C</label>
+          <select class="form-control">
+            <option *ngFor="let c2 of c2c" value="{{c2}}">{{c2}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>W2 hrly</label>
+          <select class="form-control">
+            <option *ngFor="let w of w2Hrly" value="{{w}}">{{w}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>W2 sal</label>
+          <select class="form-control">
+            <option *ngFor="let wSal of w2Sal" value="{{wSal}}">{{wSal}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Vacation</label>
+          <select class="form-control">
+            <option *ngFor="let vacAmt of vacationAmt" value="{{vacAmt}}">{{vacAmt}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Self Health</label>
+          <select class="form-control">
+            <option *ngFor="let selfAmt of selfHealthAmt" value="{{selfAmt}}">{{selfAmt}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Family Health</label>
+          <select class="form-control">
+            <option *ngFor="let famHAmt of familyHealthAmt" value="{{famHAmt}}">{{famHAmt}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>H1B</label>
+          <select class="form-control">
+            <option *ngFor="let h1b of h1bAmt" value="{{h1b}}">{{h1b}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>GC</label>
+          <select class="form-control">
+            <option *ngFor="let gc of gcAmt" value="{{gc}}">{{gc}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Total Cost</label>
+          <select class="form-control">
+            <option *ngFor="let cost of totalCost" value="{{cost}}">{{cost}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Hrly Cost</label>
+          <select class="form-control">
+            <option *ngFor="let hrly of hrlyCost" value="{{hrly}}">{{hrly}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>End Date</label>
+          <select class="form-control">
+            <option *ngFor="let end of endDate" value="{{end}}">{{end}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Business Days</label>
+          <select class="form-control">
+            <option *ngFor="let days of businessDays" value="{{days}}">{{days}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>B Hrs</label>
+          <select class="form-control">
+            <option *ngFor="let hours of businessHrs" value="{{hours}}">{{hours}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Net Hrs</label>
+          <select class="form-control">
+            <option *ngFor="let net of netHrs" value="{{net}}">{{net}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Commissions</label>
+          <select class="form-control">
+            <option *ngFor="let comm of commission" value="{{comm}}">{{comm}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Hrly</label>
+          <select class="form-control">
+            <option *ngFor="let commH of commiossionHrly" value="{{commH}}">{{commH}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Approx. Monthly</label>
+          <select class="form-control">
+            <option *ngFor="let apprxM of approxMonthly" value="{{apprxM}}">{{apprxM}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label>Approx. Yearly</label>
+          <select class="form-control">
+            <option *ngFor="let apprxY of approxYearly" value="{{apprxY}}">{{apprxY}}</option>
+          </select>
+        </div>
+      </div>
+    </div>
+</div>
